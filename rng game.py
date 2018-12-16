@@ -39,11 +39,6 @@ def f2():
 	p2=0
 	print('Enter the amount of rounds you want to play!')
 	try:
-		r= int(input('>>>'))
-	except ValueError:
-		print('*Error: Input is not a number.')
-		f2()
-	try:
 		s= input('>>>')
 		if s in ['quit', 'quit()', 'exit', 'exit()']:
 			quit()
