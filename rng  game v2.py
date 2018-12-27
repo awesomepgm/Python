@@ -8,7 +8,7 @@ def player():
 		if v in ['restart', 'restart()']:
 			f2()
 		if v in ['ya like jazz?', 'ya like jazz']:
-			open_data()
+			open_data1()
 		p= int(v)
 		if p==1:
 			f()
@@ -30,7 +30,7 @@ def f():
 		if s in ['restart', 'restart()']:
 			f2()
 		if s in ['ya like jazz?', 'ya like jazz']:
-			open_data()
+			open_data1()
 		r= int(s)
 	except ValueError:
 		if s in ['ya like jazz?', 'ya like jazz']:
@@ -47,7 +47,7 @@ def f():
 			if h in ['restart', 'restart()']:
 				f2()
 			if h in ['ya like jazz?', 'ya like jazz']:
-				open_data()
+				open_data1()
 			cool= int(h)
 			x=random.randint(1,10)
 			print('*The number was:', x)
@@ -67,7 +67,7 @@ def ifs():
 	if z in ['n', 'N', 'no', 'No', 'NO', 'nO', '0', 'quit', 'quit()']:
 		quit()
 	if z in ['ya like jazz?', 'ya like jazz']:
-		open_data()
+		open_data1()
 	else:
 		print('*Error: Input not valid. Input should be yes or no.')
 		ifs()
@@ -84,7 +84,7 @@ def f2():
 		if s in ['restart', 'restart()']:
 			f2()
 		if s in ['ya like jazz?', 'ya like jazz']:
-			open_data()
+			open_data1()
 		r= int(s)
 	except ValueError:
 		if s in ['ya like jazz?', 'ya like jazz']:
@@ -134,7 +134,7 @@ def f2():
 		if (max(p1)) == p1[uwu]:
 			print('**Player '+owo+' wins the game!!**')
 	ifs()
-def open_data():
+def open_data1():
 	import os.path
 	my_path = os.path.abspath(os.path.dirname(__file__))
 	wierd=(my_path+"..\\data\\data1.mp4")
