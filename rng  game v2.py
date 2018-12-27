@@ -107,7 +107,7 @@ def f2():
 				if h in ['restart', 'restart()']:
 					f2()
 				if h in ['ya like jazz?', 'ya like jazz']:
-					open_data()
+					open_data1()
 				hi=int(h)
 				cool1.append(hi)
 			except ValueError:
@@ -122,7 +122,6 @@ def f2():
 			j= int(cool1[u])
 			print('*Player '+m+': The difference is:',abs(l-j))
 		for meme in range(0, p):
-			memes= str(meme+1)
 			cools.append(abs(l-cool1[meme]))
 		for anime in range(0, p):
 			joe= int(cool1[anime])
