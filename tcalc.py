@@ -266,4 +266,3 @@ def convertBin(num, input_type = 'decimal'):  #needs neg and bcd implementation
     output = ''.join(bcd)
     output = str(int(output))
     return(output)
-print(convertBcd(111001011100111,'bin'))
